@@ -1,0 +1,13 @@
+public class Musical {}
+
+public class Guitar extends Musical {}
+
+public class Trumpet extends Musical {}
+
+public class Piano extends Musical {}
+
+public class MusicShop {
+  Guitar x = new Guitar();
+  Trumpet y = new Trumpet();
+  Piano z = new Piano();
+  }
