@@ -1,0 +1,28 @@
+public class Main2 {
+    public static void main(String[] args) {
+        Convertor x = new Convertor(5, "Cel");
+        System.out.println(x.getFar() + "F and " + x.getCel() + "C");
+    }
+
+
+}
+
+public class Convertor {
+    int Cel;
+    int Far;
+    String typeInput;
+    Convertor(int temp, String type) {
+
+        typeInput = type;
+        if (typeInput == "Cel") { Cel = temp; Far = Cel * 9 / 5 +32;}
+        if (typeInput == "Far") { Far = temp; Cel = (Far - 32) *5 / 9;}
+        //else System.out.println("Specify type correctly: Cel or Far");
+    }
+    public int getCel() {
+        return Cel;
+    }
+    public int getFar() {
+        return this.Far;
+    }
+
+}
