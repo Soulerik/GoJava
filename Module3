@@ -7,8 +7,6 @@ public class Image extends File {}
 public class Txt extends File {}
 
 public class Dir{
-	Audio x = new Audio();
-	Image y = new Image();
-	Txt z = new Txt();
+	File x = new File();
 	
 }
