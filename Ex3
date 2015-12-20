@@ -1,0 +1,23 @@
+public class Main {
+    public static void main(String[] args) {
+        Point a = new Point(2, 4);
+        Point b = new Point(3, 6);
+        double result = a.findDistance(b);
+        System.out.println(result);
+    }
+    }
+
+import static java.lang.Math.sqrt;
+public class Point {
+    int Place1;
+    int Place2;
+    Point(int a, int b){
+        Place1 = a;
+        Place2 = b;
+    }
+    public double findDistance(Point x){
+
+        return sqrt((this.Place1 - x.Place1) * (this.Place1 - x.Place1) +
+        (this.Place2 - x.Place2) * (this.Place2 - x.Place2) );
+    }
+}
