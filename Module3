@@ -1,4 +1,4 @@
-public class File {}
+public abstract class File {}
 
 public class Audio extends File {}
 
