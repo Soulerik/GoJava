@@ -1,4 +1,4 @@
-public class Flower {}
+public abstract class Flower {}
 
 public class Rose extends Flower {}
 
@@ -13,6 +13,6 @@ public class Bouquet {
   }
   
 public class RoseBunch {
-  Rose x new Rose();
+  Rose x = new Rose();
   }
 
