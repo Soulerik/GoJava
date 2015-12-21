@@ -1,4 +1,4 @@
-public class Musical {}
+public abstract class Musical {}
 
 public class Guitar extends Musical {}
 
