@@ -1,0 +1,35 @@
+
+public class Distance {
+    int x1;
+    int x2;
+    int y1;
+    int y2;
+    public double getDistance(){
+        return Math.sqrt((x1 - x2) * (x1 - x2) + (y2 - y1) * (y2 - y1));
+    }
+    Distance(int a, int b, int c, int d){
+        this.x1 = a;
+        this.x2 = c;
+        this.y1 = b;
+        this.y2 = d;
+    }
+}
+
+import java.util.Scanner;
+public class Module4ex3 {
+    public static void main(String args[]){
+        final Scanner scanner = new Scanner(System.in);
+        System.out.println("Please put in first point's x");
+        int point1X = scanner.nextInt();
+        System.out.println("Please put in first point's y");
+        int point1Y = scanner.nextInt();
+        System.out.println("Please put in second point's x");
+        int point2X = scanner.nextInt();
+        System.out.println("Please put in second point's y");
+        int point2Y = scanner.nextInt();
+        Distance test = new Distance(point1X, point1Y, point2X, point2Y);
+        double result = test.getDistance();
+        System.out.println(result);
+    }
+
+}
