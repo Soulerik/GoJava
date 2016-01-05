@@ -12,8 +12,8 @@ public class Point {
     int Place1;
     int Place2;
     Point(int a, int b){
-        Place1 = a;
-        Place2 = b;
+        this.Place1 = a;
+        this.Place2 = b;
     }
     public double findDistance(Point x){
 
