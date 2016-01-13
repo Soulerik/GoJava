@@ -1,4 +1,4 @@
-public class Main2 {
+public class Ex2 {
     public static void main(String[] args) {
         Convertor x = new Convertor(5, "Cel");
         System.out.println(x.getFar() + "F and " + x.getCel() + "C");
@@ -7,7 +7,7 @@ public class Main2 {
 
 }
 
-public class Convertor {
+class Convertor {
     int Cel;
     int Far;
     String typeInput;
