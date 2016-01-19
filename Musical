@@ -1,0 +1,20 @@
+public abstract class Musical {}
+try {
+some method() throws IllegalArgumentException;
+}
+catch(IllegalArgumentException e){
+System.out.println("Illegal argument was put in"); 
+throw e;
+}
+
+class Guitar extends Musical {}
+
+class Trumpet extends Musical {}
+
+class Piano extends Musical {}
+
+class MusicShop {
+  Guitar x = new Guitar();
+  Trumpet y = new Trumpet();
+  Piano z = new Piano();
+  }
