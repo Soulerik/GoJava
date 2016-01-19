@@ -1,6 +1,6 @@
 public abstract class Flower {}
 try {
-some code;
+some method() throws IOException;
 }
 catch(IOException ex){
 System.out.println("Wrong amount"); 
