@@ -5,7 +5,7 @@
 
 public abstract class Musical {}
 
-some method() throws IllegalArgumentException;
+some method() {} throws IllegalArgumentException;
 
 
 class Guitar extends Musical {}
