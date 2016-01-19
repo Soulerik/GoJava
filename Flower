@@ -1,0 +1,25 @@
+public abstract class Flower {}
+try {
+some code;
+}
+catch(IOException ex){
+System.out.println("Wrong amount"); 
+throw ex;
+}
+
+class Rose extends Flower {}
+
+class Chamonile extends Flower {}
+
+class Tulip extends Flower {}
+
+class Aster extends Flower {}
+
+class Bouquet {
+  Flower x = new Flower();
+  }
+  
+class RoseBunch {
+  Rose x = new Rose();
+  }
+
