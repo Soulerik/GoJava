@@ -1,11 +1,12 @@
+/*
+@throws IllegalArgumentException if something is wrong
+*/
+
+
 public abstract class Musical {}
-try {
+
 some method() throws IllegalArgumentException;
-}
-catch(IllegalArgumentException e){
-System.out.println("Illegal argument was put in"); 
-throw e;
-}
+
 
 class Guitar extends Musical {}
 
